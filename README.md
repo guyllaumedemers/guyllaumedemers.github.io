@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Guyllaume Demers
+
+###Game Dev
 
 You can use the [editor on GitHub](https://github.com/guyllaumedemers/gdemers.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
