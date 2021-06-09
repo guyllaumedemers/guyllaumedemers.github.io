@@ -170,7 +170,7 @@
 							<p></p>
 							<form method="POST" id="contactform" action="https://formspree.io/f/mwkabkjn" enctype="multipart/form-data">
 								<input type="hidden" name="_subject" value="Website contact" />
-								<**input** type="text" name="_gotcha" style="display:none" />								
+								<input visibility="hidden" type="text" name="_gotcha" style="display:none"/>								
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -209,19 +209,6 @@
 			</div>
 
 		<!-- Scripts -->
-			<script language="JavaScript">
-			// Code for validating the form
-			// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-			// for details
-			var frmvalidator  = new Validator("contactform");
-			frmvalidator.addValidation("name","req","Please provide your name"); 
-			frmvalidator.addValidation("email","req","Please provide your email"); 
-			frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-			</script>
-			<!--
-			Sample code from:
-			http://www.html-form-guide.com/contact-form/php-email-contact-form.html
-			-->	
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
