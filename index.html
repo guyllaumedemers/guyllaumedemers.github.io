@@ -168,7 +168,9 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p></p>
-							<form method="POST" action="https://formspree.io/f/mwkabkjn"> 
+							<form method="POST" id="Contact" action="https://formspree.io/f/mwkabkjn" enctype="multipart/form-data">
+								<input type="hidden" name="_subject" value="Website contact" />
+								<**input** type="text" name="_gotcha" style="display:none" />								
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -176,14 +178,14 @@
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="_replyto" id="email" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 								</div>
-								<ul class="actions">
+								<ul class="actions">	
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
 							</form>
